@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NkC-UU-Bei">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--First View Controller-->
+        <scene sceneID="0Gl-K1-lpY">
+            <objects>
+                <viewController storyboardIdentifier="FirstViewController" id="NkC-UU-Bei" customClass="FirstViewController" customModule="CarWash_Worker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PTv-Kd-8DH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="h5y-eG-z91"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pi7-vS-gcM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-833" y="91"/>
+        </scene>
+        <!--LoginVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="LoginVC" id="BYZ-38-t0r" customClass="LoginVC" customModule="CarWash_Worker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="29" y="68"/>
+        </scene>
+        <!--Sign UpVC-->
+        <scene sceneID="4rY-Lu-uZ3">
+            <objects>
+                <viewController storyboardIdentifier="SignUpVC" id="PNA-tJ-oVt" customClass="SignUpVC" customModule="CarWash_Worker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4vJ-OB-x5c">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="eP9-k1-b6P"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3QT-Ox-KZZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="700" y="62"/>
+        </scene>
+        <!--Forgot PasswordVC-->
+        <scene sceneID="cFX-Ru-rM9">
+            <objects>
+                <viewController storyboardIdentifier="ForgotPasswordVC" id="9PZ-ID-qtf" customClass="ForgotPasswordVC" customModule="CarWash_Worker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hni-6E-1GU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="jC1-fa-f5N"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T7F-RY-MKL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1343" y="68"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="Sat-MO-dH9">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="7rW-bU-kWR" customClass="HomeViewController" customModule="CarWash_Worker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SPA-eu-CCB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's get started" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Di3-g1-Kvs">
+                                <rect key="frame" x="77.333333333333329" y="335.66666666666669" width="220.33333333333337" height="41"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i69-cr-TmO">
+                                <rect key="frame" x="152.66666666666666" y="406.66666666666669" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="G7W-ZM-6Kx"/>
+                                    <constraint firstAttribute="width" constant="70" id="HLz-lh-XE3"/>
+                                </constraints>
+                                <state key="normal" image="next"/>
+                                <connections>
+                                    <segue destination="euJ-nG-rzy" kind="push" id="J4l-h0-bpO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="95I-8b-q9F"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Di3-g1-Kvs" firstAttribute="centerX" secondItem="SPA-eu-CCB" secondAttribute="centerX" id="4Vw-Dh-Btv"/>
+                            <constraint firstItem="i69-cr-TmO" firstAttribute="top" secondItem="Di3-g1-Kvs" secondAttribute="bottom" constant="30" id="ZnK-fW-8zn"/>
+                            <constraint firstItem="i69-cr-TmO" firstAttribute="centerX" secondItem="SPA-eu-CCB" secondAttribute="centerX" id="gD9-QM-16J"/>
+                            <constraint firstItem="Di3-g1-Kvs" firstAttribute="centerY" secondItem="SPA-eu-CCB" secondAttribute="centerY" constant="-50" id="gQW-96-jKL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Fek-jX-4VO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oS7-Ux-2H0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1849.2753623188407" y="725.89285714285711"/>
+        </scene>
+        <!--Set LocationVC-->
+        <scene sceneID="d2N-dZ-3Cy">
+            <objects>
+                <viewController storyboardIdentifier="SetLocationVC" id="euJ-nG-rzy" customClass="SetLocationVC" customModule="CarWash_Worker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rhF-ED-t26">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="FYH-hO-5Cf">
+                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                            </mapView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLm-8N-HxG">
+                                <rect key="frame" x="165" y="703" width="180" height="45"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Byy-UW-n3c"/>
+                                    <constraint firstAttribute="width" constant="180" id="nAK-gA-ddW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="20"/>
+                                <state key="normal" title="Confirm Location">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="confirmBtnPressed:" destination="euJ-nG-rzy" eventType="touchUpInside" id="G7B-dX-2fC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="beP-23-ohw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="beP-23-ohw" firstAttribute="bottom" secondItem="nLm-8N-HxG" secondAttribute="bottom" constant="30" id="0YJ-u3-XeF"/>
+                            <constraint firstItem="FYH-hO-5Cf" firstAttribute="top" secondItem="beP-23-ohw" secondAttribute="top" id="cc9-AW-x4p"/>
+                            <constraint firstItem="beP-23-ohw" firstAttribute="trailing" secondItem="nLm-8N-HxG" secondAttribute="trailing" constant="30" id="hA3-pI-zMd"/>
+                            <constraint firstItem="FYH-hO-5Cf" firstAttribute="leading" secondItem="beP-23-ohw" secondAttribute="leading" id="i4a-ny-lKS"/>
+                            <constraint firstItem="beP-23-ohw" firstAttribute="bottom" secondItem="FYH-hO-5Cf" secondAttribute="bottom" id="sEJ-a3-sWw"/>
+                            <constraint firstItem="beP-23-ohw" firstAttribute="trailing" secondItem="FYH-hO-5Cf" secondAttribute="trailing" id="shy-Ad-V55"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="mLt-OL-Q8g"/>
+                    <connections>
+                        <outlet property="confirmBtn" destination="nLm-8N-HxG" id="ZSm-ci-BHL"/>
+                        <outlet property="mapView" destination="FYH-hO-5Cf" id="1de-hq-imi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aJi-9Y-g8v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2494.202898550725" y="728.57142857142856"/>
+        </scene>
+        <!--Home View Controller2-->
+        <scene sceneID="8v8-cU-pVP">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController2" id="IaX-Gu-wg6" customClass="HomeViewController2" customModule="CarWash_Worker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pey-or-er5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Jlk-gs-RIU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Uwr-BA-XoC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uxM-YC-OdD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4743.1999999999998" y="1287.9310344827586"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Joh-zc-J3H">
+            <objects>
+                <navigationController storyboardIdentifier="NavigationController" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="S6L-qz-LaY" customClass="NavigationController" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="v4q-h5-4lr">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="uY4-IV-cb2">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="7rW-bU-kWR" kind="relationship" relationship="rootViewController" id="nur-SX-Ths"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AOk-PV-m4S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="939.13043478260875" y="725.89285714285711"/>
+        </scene>
+        <!--Navigation Controller2-->
+        <scene sceneID="8T2-5f-C8u">
+            <objects>
+                <navigationController storyboardIdentifier="NavigationController2" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="6sX-ua-PK3" customClass="NavigationController2" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Sym-s6-Rdc">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="IaX-Gu-wg6" kind="relationship" relationship="rootViewController" id="Qgr-9m-oDg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HqJ-DK-smE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3800.8000000000002" y="1287.9310344827586"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="next" width="512" height="512"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

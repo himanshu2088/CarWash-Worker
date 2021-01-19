@@ -6,16 +6,32 @@
 //
 
 import UIKit
+import Firebase
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
-
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+        if Auth.auth().currentUser != nil { Firestore.firestore().collection("workers").document((Auth.auth().currentUser?.uid)!).getDocument { (snapshot, error) in
+                if let error = error {
+                    print("Error while logging in, \(error.localizedDescription)")
+                }
+                if snapshot?.data()!["location"] as! String == "" {
+                    let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+                    let nextViewController = storyBoard.instantiateViewController(withIdentifier: "NavigationController")
+                    self.window?.rootViewController = nextViewController
+                } else {
+                    let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+                    let nextViewController = storyBoard.instantiateViewController(withIdentifier: "NavigationController2")
+                    self.window?.rootViewController = nextViewController
+                }
+            }
+        } else {
+            let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+            let nextViewController = storyBoard.instantiateViewController(withIdentifier: "LoginVC") as? LoginVC
+            self.window?.rootViewController = nextViewController
+        }
         guard let _ = (scene as? UIWindowScene) else { return }
     }
 
